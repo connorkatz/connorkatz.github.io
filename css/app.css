@@ -1,0 +1,43 @@
+/* ------------------ Resets ------------------------------------------------------- */
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+html,body {height: 100%;}
+
+body {font-size: 16px; font-family: 'Lato', sans-serif;
+    font-weight: 400; line-height: 1; color: #4d4d4d; background: #ffffff;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 400;}
+
+/* Default Link Styles */
+a { color: #1c88e1; text-decoration: none; }
+
+/* Default List Styles */
+ul, ol {list-style-type: none;}
+
+/* Default img style */
+img {border: none; max-width: 100%;}
+
+/* Default focus style */
+:focus {outline: none;}
+
+#site_header {background: #333333; position: relative; height: 50px;}
+
+#logo {position: absolute; left: 50%; top: 10px; max-width: 150px; transform: translateX(-50%);}
+
+#page_content {padding: 125px; max-width: 800px; margin: 0 auto;}
+
+#intro_content {text-align: center;}
+    #intro_content h1 {color: #000000; font-weight: 700; font-size: 20px; text-transform: uppercase; margin-bottom: 10px;}
+    #intro_content p {line-height: 1.25;}
+
+#links {padding: 50px 0 0 0;}
+    #links li {margin-bottom: 25px;}
+    #links h2 {background: #e5e5e5; padding: 10px 15px; font-weight: 400;}
+
+.link_details {background: #f2f2f2;}
+    .link_details a:first-of-type {padding-top: 15px;}
+    .link_details a {display: block; padding: 10px 20px; background: #f2f2f2; font-size: 16px; font-weight: 700;}
+    .link_details p {line-height: 1.5; padding: 0 20px 15px 20px; font-weight: 300;}
+    .link_details p.first {padding: 15px 20px 10px 20px;}
+
+#mock_container {max-width: 1400px; margin: 0 auto;}
