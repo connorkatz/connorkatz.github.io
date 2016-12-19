@@ -24,7 +24,7 @@ img {border: none; max-width: 100%;}
 
 #logo {position: absolute; left: 50%; top: 10px; max-width: 150px; transform: translateX(-50%);}
 
-#page_content {padding: 125px; min-width: 600px; max-width: 800px; margin: 0 auto;}
+#page_content {padding: 125px; max-width: 800px; margin: 0 auto;}
 
 #intro_content {text-align: center;}
     #intro_content h1 {color: #000000; font-weight: 700; font-size: 20px; text-transform: uppercase; margin-bottom: 10px;}
@@ -34,7 +34,7 @@ img {border: none; max-width: 100%;}
     #links li {margin-bottom: 25px;}
     #links h2 {background: #e5e5e5; padding: 10px 15px; font-weight: 400;}
 
-.link_details {background: #f2f2f2;}
+.link_details {background: #f2f2f2; word-wrap: break-word;}
     .link_details a:first-of-type {padding-top: 15px;}
     .link_details a {display: block; padding: 10px 20px; background: #f2f2f2; font-size: 16px; font-weight: 700;}
     .link_details p {line-height: 1.5; padding: 0 20px 15px 20px; font-weight: 300;}
