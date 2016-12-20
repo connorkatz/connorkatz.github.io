@@ -4,7 +4,7 @@
 html,body {height: 100%;}
 
 body {font-size: 16px; font-family: 'Lato', sans-serif;
-    font-weight: 400; line-height: 1; color: #4d4d4d; background: #ffffff;}
+    font-weight: 400; line-height: 1; color: #4d4d4d; background: #f1f1f1;}
 
 h1,h2,h3,h4,h5,h6 {font-weight: 400;}
 
@@ -31,13 +31,13 @@ img {border: none; max-width: 100%;}
     #intro_content p {line-height: 1.25;}
 
 #links {padding: 50px 0 0 0;}
-    #links li {margin-bottom: 25px;}
-    #links h2 {background: #e5e5e5; padding: 10px 15px; font-weight: 400;}
+    #links li {margin-bottom: 25px; box-shadow: 0 0 1px rgba(0,0,0,0.2); background: #ffffff;}
+    #links h2 {background: #666666; color: #ffffff; padding: 15px; font-weight: 400;}
 
-.link_details {background: #f2f2f2; word-wrap: break-word;}
-    .link_details a:first-of-type {padding-top: 15px;}
-    .link_details a {display: block; padding: 10px 20px; background: #f2f2f2; font-size: 16px; font-weight: 700;}
-    .link_details p {line-height: 1.5; padding: 0 20px 15px 20px; font-weight: 300;}
-    .link_details p.first {padding: 15px 20px 10px 20px;}
+.link_details {word-wrap: break-word;}
+    .link_details a {display: block; padding: 10px 20px; background: #ebf2f7; font-size: 16px; font-weight: 700;}
+    .link_details p {line-height: 1.5; padding: 15px 20px 0 20px; font-weight: 400;}
+    .link_details p:last-child {padding-bottom: 15px;}
+    .link_details p.first {padding-bottom: 15px;}
 
 #mock_container {max-width: 1400px; margin: 0 auto;}
